@@ -1,0 +1,56 @@
+.navbar {
+    padding: 0;
+
+    .container-fluid {
+        background-color: black;
+
+        .navbar-brand {
+            img {
+                width: 200px;
+            }
+        }
+
+        .navbar-toggler {
+            background-color: rgb(31, 31, 31);
+        }
+
+        #offcanvasNavbar {
+            background-color: black;
+            color: white;
+
+            .offcanvas-header {
+                .offcanvas-title {
+                    .off-icono {
+                        width: 50px;
+                    
+                    }
+                }
+                .btn-close{
+                    background-color: rgb(82, 82, 82);
+                }
+            }
+
+            .offcanvas-body {
+                .nav-item {
+                    .nav-link {
+                        color: white;
+                    }
+                }
+
+                .nav-item {
+                    .dropdown {
+                        .dropdown-menu {
+                            .show {
+                                .dropdown-item {
+                                    width: 30px;
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
